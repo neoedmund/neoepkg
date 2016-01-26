@@ -1,0 +1,6 @@
+{
+	prjs:[
+		[neoepkg, ".", {main:"neoe.pkg.Main"}, ],
+	],
+}
+                                                   

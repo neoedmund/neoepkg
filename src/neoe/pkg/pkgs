@@ -1,0 +1,11 @@
+{
+	pkgs:[ /*[name desc category cmmand git ]*/
+	[neoebuild "java build tool"  basic nb "git@github.com:neoedmund/neoebuild.git"]
+	[neoeedit "GUI text editor" basic ne "git@github.com:neoedmund/neoeedit.git"]
+	[neoejloader "java application launcher" basic neoejloader git@github.com:neoedmund/neoejloader.git]
+	[neoeblock "Firefox Ad Blocker" net "" "git@github.com:neoedmund/neoeblock.git"]	
+	[neoednsproxy "safe DNS client" net  ""  "git@github.com:neoedmund/neoednsproxy.git"]
+	[dl2  "fastest download manager" net dl2  "git@github.com:neoedmund/dl2.git" ]
+	[neoecodestat "source code stat tool" develop  "" "git@github.com:neoedmund/neoecodestat.git" ]
+	]
+}
