@@ -222,8 +222,12 @@ public class Main {
 			exec.addArg("PATH");
 			exec.addArg(path);
 			// exec.addArg("/M");
-			int ret = exec.execute();
-			Log.log("addToUserPath ret=" + ret);
+			try{
+				int ret = exec.execute();			
+				Log.log("addToUserPath ret=" + ret);
+			}catch(Exception ex){
+				Log.log("setx failed, you may add PATH manually", ex);
+			}
 		} else {
 			Log.log("addToUserPath already added");
 		}

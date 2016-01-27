@@ -13,24 +13,24 @@
 
 	scripts:{
 		neoepkg:{
-			linux:`java -jar $path/neoepkg/dist/neoepkg.jar $*`
-			windows:`java -jar $path\\neoepkg\\dist\\neoepkg.jar %*`
+			linux:`java -jar "$path/neoepkg/dist/neoepkg.jar" $*`
+			windows:`java -jar "$path\\neoepkg\\dist\\neoepkg.jar" %*`
 		}
 		neoebuild:{
-			linux:`java -cp $path/neoebuild/neoebuild.jar neoe.build.BuildMain $*`
-			windows:`java -cp $path\\neoebuild\\neoebuild.jar neoe.build.BuildMain %*`
+			linux:`java -cp "$path/neoebuild/neoebuild.jar" neoe.build.BuildMain $*`
+			windows:`java -cp "$path\\neoebuild\\neoebuild.jar" neoe.build.BuildMain %*`
 		}
 		neoeedit:{
-			linux:`java -Xmx1000M -jar $path/neoeedit/dist/neoeedit.jar $*`
-			windows:`java -Xmx1000M -jar $path\\neoeedit\\dist\\neoeedit.jar %*`
+			linux:`java -Xmx1000M -jar "$path/neoeedit/dist/neoeedit.jar" $*`
+			windows:`java -Xmx1000M -jar "$path\\neoeedit\\dist\\neoeedit.jar" %*`
 		}
 		neoejloader:{
-			linux:`java  -jar $path/neoejloader/dist/neoejloader.jar $*`
-			windows:`java  -jar $path\\neoejloader\\dist\\neoejloader.jar %*`
+			linux:`java  -jar "$path/neoejloader/dist/neoejloader.jar" $*`
+			windows:`java  -jar "$path\\neoejloader\\dist\\neoejloader.jar" %*`
 		}
 		dl2:{
-			linux:`java  -cp $path/dl2/dist/dl2.jar neoe.dl.DL2 $*`
-			windows:`java  -cp $path\\dl2\\dist\\dl2.jar neoe.dl.DL2 %*`
+			linux:`java  -cp "$path/dl2/dist/dl2.jar" neoe.dl.DL2 $*`
+			windows:`java  -cp "$path\\dl2\\dist\\dl2.jar" neoe.dl.DL2 %*`
 		}
 		
 	}
