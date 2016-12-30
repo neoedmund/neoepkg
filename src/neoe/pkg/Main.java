@@ -158,6 +158,10 @@ public class Main {
 			addToUserPathLinux(binDir);
 			os = "linux";
 		}
+		if (new File(fn).exists()){
+			Log.log("script file already exists, skip:" + fn);
+			return;
+		}
 		String path;
 		String txt = (String) Config.get(conf, path = String.format("scripts.%s.%s", pkgname, os));
 		if (txt == null) {
